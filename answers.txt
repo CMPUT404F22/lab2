@@ -12,3 +12,6 @@ to send and receive data over the connection. We also know the address of the in
 Question 5
 What is returned by recv() from the server after it is done sending the HTTP request?
 It returns the encoded data (string) received from the other end of the socket.
+
+Question 6
+Link to code: https://github.com/CMPUT404F22/lab2
