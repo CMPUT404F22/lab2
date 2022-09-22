@@ -1,0 +1,14 @@
+Question 1
+You can specify a tcp socket in python with the SOCK_STREAM constant in the 'socket' module.
+
+Question 2
+A server socket listens for incoming connections and a client socket initiates connection to a server socket.
+
+Question 4
+What information do we get about incoming connections?
+When we receive an incoming connection, we have access to the corresponding socket object that allows us
+to send and receive data over the connection. We also know the address of the incoming connection.
+
+Question 5
+What is returned by recv() from the server after it is done sending the HTTP request?
+It returns the encoded data (string) received from the other end of the socket.
